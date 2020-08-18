@@ -1,0 +1,99 @@
+		body{
+			background-image: url('bg.jpg');
+			background-repeat: no-repeat;
+			background-size: 125%;
+		}
+
+		form{
+			border-radius: 5px;
+		    background-image: linear-gradient(#eaabe8,#3d3894);
+		    padding: 10px;
+		    width: 50%;
+		    left: 23%;
+		    position: absolute;
+		    top: 5%;
+		    margin-bottom: 2%;
+		    font-family: courier;
+		    opacity: 0.9;
+
+		}
+		input[type=text],[type=Email], textarea{
+			width: 25%;
+			padding: 8px 10px;
+			border: 1px solid #d4cdcd;
+			border-radius: 4px;
+			box-sizing: border-box;
+			text-align: center;
+			
+		}
+		label{
+			margin-left: 6%;
+		}
+		select{
+			width: 100%;
+			padding: 8px 10px;
+			border: 1px solid #d4cdcd;
+			border-radius: 4px;
+		}
+		
+		table, th, td {
+		  border: 1px solid #d4cdcd;
+		  border-collapse: collapse;
+		}
+		th, td {
+		  padding: 15px;
+		  text-align: center;
+		}
+		option{
+			background-color:  #f2f2f2;
+		}
+		#edit{
+			width: 70%;
+			padding: 8px 10px;
+			border: 1px solid #d4cdcd;
+			border-radius: 4px;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		.button {
+		  background-color: #cc175d;
+		  border: none;
+		  color: white;
+		  padding: 15px 32px;
+		  font-size: 14px;
+		  margin-left: 40%;
+		  cursor: pointer;
+		}
+		.btn{
+			margin-left: 67%;
+			background-color: #09270a;
+			border: none;
+			color: white;
+			padding: 4px;
+			cursor: pointer;
+		}
+		.btn-del{
+			background-color: #a21f1f;
+			border: none;
+			color: white;
+			padding: 4px;
+			cursor: pointer;
+		}
+		#num{
+		    width: 25%;
+		    margin-left: 3%;
+		    padding: 8px 6px;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		    border: 1px solid #d4cdcd;
+		    text-align: center;
+		}
+		.rate{
+			width: 94%;
+		    margin-left: 3%;
+		    padding: 8px 6px;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		    border: 1px solid #d4cdcd;
+		    text-align: center;
+		}
